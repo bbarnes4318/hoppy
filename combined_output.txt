@@ -1,0 +1,873 @@
+- Billable: No
+- Reason (if Not Billable): Unqualified Customer: No active bank account/credit card
+- Application Submitted: No
+- Reason (if No): No payment info collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly? No
+- Reason (if Yes): Not Provided
+- Last Thing Said: Not Provided
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment information (routing/account numbers) was actually collected and no confirmation of application submission was mentioned
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: James
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Did the call end abruptly: No
+- Reason (if Yes): Not Applicable
+- Last Thing Said: "because I mean, who wants to deal with negotiating that?"
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment info collected, no SSN collected, no confirmation of submission mentioned
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Doris Aziz
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Customer indicated unwillingness to continue
+- Last Thing Said: "Until you do not."
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment info collected and no SSN collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Doris Aziz
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Customer ended call
+- Last Thing Said: "Until you do not."
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment info collected, no SSN collected, no confirmation of submission mentioned
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Chad
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Customer stopped engaging
+- Last Thing Said: "I don't know."
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment info collected and no SSN information mentioned
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Chad
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Customer appeared confused and conversation ended without resolution
+- Last Thing Said: "I don't know."
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment info collected, no SSN collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: James Williams
+- Phone Number: Not Provided
+- Agent Name: Alia
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Call ended mid-sentence during agent's question
+- Last Thing Said: "Hmm. So the part-time... All right."
+- Billable: No
+- Reason (if Not Billable): Unqualified Customer: Age 81+
+- Application Submitted: No
+- Reason (if No): No payment info collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Fred Poundzack
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Customer confusion or disengagement
+- Last Thing Said: "Okay. So do you need the coverage? What? Okay."
+- Billable: No
+- Reason (if Not Billable): Unqualified Customer: Age 81+
+- Application Submitted: No
+- Reason (if No): No payment info collected, no SSN collected, no confirmation of submission mentioned
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Catherine
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Customer ended call after declining service
+- Last Thing Said: "When they call you, just tell them no. Okay. Okay."
+- Billable: No
+- Reason (if Not Billable): Unqualified Customer: Age 81+
+- Application Submitted: No
+- Reason (if No): No payment info collected, no SSN collected, no confirmation of submission mentioned
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Catherine
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Did the call end abruptly: Yes
+- Reason (if Yes): Customer ended call after declining service
+- Last Thing Said: When they call you, just tell them no. Okay. Okay.
+- Billable: No
+- Reason (if Not Billable): Unqualified Customer: No active bank account/credit card
+- Application Submitted: No
+- Reason (if No): No payment info collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly?: No
+- Reason (if Yes): Not Provided
+- Last Thing Said: Not Provided
+- Billable: No
+- Reason (if Not Billable): Unqualified Customer: No active bank account/credit card
+- Application Submitted: No
+- Reason (if No): No payment info collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly? Yes
+- Reason (if Yes): Call forwarded to voicemail
+- Last Thing Said: "been forwarded to an automated voicemess."
+- Billable: No
+- Reason (if Not Billable): Unqualified Customer: No active bank account/credit card
+- Application Submitted: No
+- Reason (if No): No payment info collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly?: No
+- Reason (if Yes): Not Provided
+- Last Thing Said: Not Provided
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment information collected and no SSN information collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Claudia
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Did the call end abruptly?: No
+- Reason (if Yes): Not Applicable
+- Last Thing Said: "Okay. Okay."
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment info collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Claudia
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Did the call end abruptly?: No
+- Reason (if Yes): Not Applicable
+- Last Thing Said: Okay.
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment information (routing/account number or credit card) was collected and no SSN information was requested
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Rita
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Customer stopped engaging after expressing confusion about why she took the call
+- Last Thing Said: "Rita. Rita. Hello."
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment information (bank account or credit card) collected and no SSN information collected
+- Monthly Premium: $30
+- Carrier: Not Provided
+- Customer Name: Priscilla Ellis
+- Phone Number: 904-768-1210
+- Agent Name: Samantha
+- Did the call end abruptly: No
+- Reason (if Yes): Not Applicable
+- Last Thing Said: "About $30."
+- Billable: No
+- Reason (if Not Billable): Unqualified Customer: Age 81+
+- Application Submitted: No
+- Reason (if No): No payment info collected, no SSN collected, no confirmation of submission mentioned
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Betty
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Agent ended call without completing process
+- Last Thing Said: "We'll somebody be back and test with you within the next couple of days."
+- Billable: No
+- Reason (if Not Billable): Unqualified Customer: No active bank account/credit card
+- Application Submitted: No
+- Reason (if No): No payment info collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly? Yes
+- Reason (if Yes): Call forwarded to voicemail
+- Last Thing Said: "your call has been forwarded to the voicemail for chat new yes"
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No SSN or payment information collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: George Bibbons
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Did the call end abruptly: Yes
+- Reason (if Yes): Customer hung up
+- Last Thing Said: "What's all called me George?"
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No information collected regarding SSN or payment details
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly?: No
+- Reason (if Yes): Not Applicable
+- Last Thing Said: Please stay on the line.
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No information collected regarding SSN or payment details
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly: No
+- Reason (if Yes): Not Applicable
+- Last Thing Said: Please stay on the line.
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No customer interaction occurred to collect any information
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly?: No
+- Reason (if Yes): Not Applicable
+- Last Thing Said: "Hold on, hold on."
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment info collected and no SSN information mentioned
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Chad
+- Did the call end abruptly: Yes
+- Reason (if Yes): Customer appeared confused and conversation became incoherent
+- Last Thing Said: "You can't help knowing."
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment info collected and no SSN information mentioned
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Chad
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Call ended mid-conversation
+- Last Thing Said: You can't help knowing.
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No information collected or mentioned regarding SSN or payment details
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Chad Moon
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Call forwarded to voicemail
+- Last Thing Said: "No one is available to take your call."
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No customer interaction occurred; call was forwarded to voicemail
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly?: No
+- Reason (if Yes): Not Applicable
+- Last Thing Said: "The person you're trying to reach is not available."
+- Billable: No
+- Reason (if Not Billable): Unqualified Customer: No active bank account/credit card
+- Application Submitted: No
+- Reason (if No): No payment info collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly? Yes
+- Reason (if Yes): Call forwarded to voicemail
+- Last Thing Said: "been forwarded to an automated voicemail."
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment info collected and no SSN collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Kim
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Customer stopped responding
+- Last Thing Said: "So I'm understanding you were looking for some life insurance or burial coverage. Is that correct?"
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No customer interaction occurred to collect any information
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly: No
+- Reason (if Yes): Not Applicable
+- Last Thing Said: "Hold while I try to connect you."
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment info collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Zina
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Call dropped
+- Last Thing Said: I don't need it.
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No SSN or payment information collected, no confirmation of application submission mentioned
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Chad
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Call appears to have disconnected mid-conversation
+- Last Thing Said: "How was it going?"
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No customer interaction or information collection occurred
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly?: No
+- Reason (if Yes): Not Applicable
+- Last Thing Said: "Hold while I try to connect you."
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No information collected regarding SSN or payment details
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly?: No
+- Reason (if Yes): Not Applicable
+- Last Thing Said: "Thanks!"
+- Billable: No
+- Reason (if Not Billable): Unqualified Customer: No active bank account/credit card
+- Application Submitted: No
+- Reason (if No): No payment info collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Call forwarded to voicemail
+- Last Thing Said: "The person you're trying to reach is not"
+- Billable: No
+- Reason (if Not Billable): Unqualified Customer: Age 81+
+- Application Submitted: Yes
+- Reason (if No): Not Provided
+- Monthly Premium: 50
+- Carrier: Trans-America
+- Customer Name: Georgina Grace
+- Phone Number: 6147404
+- Agent Name: Chad
+- Abrupt Ending Analysis: No
+- Reason (if Yes): Not Provided
+- Last Thing Said: Bye for now
+- Billable: No
+- Reason (if Not Billable): Unqualified Customer: Age 81+
+- Application Submitted: No
+- Reason (if No): No payment info collected
+- Monthly Premium: 50
+- Carrier: Not Provided
+- Customer Name: Georgina Grace
+- Phone Number: 6147404
+- Agent Name: Chad
+- Did the call end abruptly? No
+- Reason (if Yes): Not Provided
+- Last Thing Said: Bye
+- Billable: Yes
+- Reason (if Not Billable): N/A
+- Application Submitted: No
+- Reason (if No): No SSN collected and no payment information confirmed/collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Ernie
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Did the call end abruptly: Yes
+- Reason (if Yes): Agent ended call without clear conclusion after discussing follow-up
+- Last Thing Said: "Well, we'll get back in touch with you when we get in charge of something with all three of us."
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment info collected and no SSN information mentioned
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Ernie
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Did the call end abruptly?: No
+- Reason (if Yes): Not Applicable
+- Last Thing Said: We'll be back in touch with you. We'll get started.
+- Billable: No
+- Reason (if Not Billable): Unqualified Customer: No active bank account/credit card
+- Application Submitted: No
+- Reason (if No): No payment info collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly?: No
+- Reason (if Yes): Not Provided
+- Last Thing Said: Not Provided
+- Billable: No
+- Reason (if Not Billable): Unqualified Customer: No active bank account/credit card
+- Application Submitted: No
+- Reason (if No): No payment info collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Call forwarded to voicemail
+- Last Thing Said: "has been forwarded to an automated voicemess."
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment information (routing/account number or credit card) was confirmed as collected, and no SSN was collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Patricia
+- Phone Number: Not Provided
+- Agent Name: Roger
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Call dropped or customer stopped responding
+- Last Thing Said: "Hello. Miss Patricia. Hello. Are you there? Hello."
+- Billable: Yes
+- Reason (if Not Billable): N/A
+- Application Submitted: No
+- Reason (if No): No payment information collected and no SSN information collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Karen Austin
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Customer indicated desire to end call
+- Last Thing Said: "Well, let's go then. I don't want to waste anything."
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment info collected and no SSN information requested
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Lily Browder
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Abrupt Ending Analysis: Yes
+- Reason (if Yes): Call ended mid-sentence without conclusion
+- Last Thing Said: "thank you so much for telling me that's one for you don't have to go into your"
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment information collected and no SSN information collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Lily Browder
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Customer ended the call
+- Last Thing Said: "Okay, thank you so much for telling me that's one for you don't have to go into your"
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment information collected and no SSN information collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Winner Fred
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Abrupt Ending Analysis: Yes
+- Reason (if Yes): Agent was interrupted while asking a question
+- Last Thing Said: "I'm going to ask you a question."
+- Billable: No
+- Reason (if Not Billable): Call did not connect to a customer or agent
+- Application Submitted: No
+- Reason (if No): No interaction occurred to collect any information
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly? No
+- Reason (if Yes): Not Provided
+- Last Thing Said: Not Provided
+- Billable: No
+- Reason (if Not Billable): Unqualified Customer: No active bank account/credit card
+- Application Submitted: No
+- Reason (if No): No payment info collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly? Yes
+- Reason (if Yes): Call forwarded to voicemail
+- Last Thing Said: "No one is available."
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment info collected and no SSN information mentioned
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Customer appeared to disconnect while repeating complaint
+- Last Thing Said: "I don't know why they keep."
+
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment info collected and no SSN information requested
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Lily Browder
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Abrupt Ending Analysis: Yes
+- Reason (if Yes): Call ended mid-sentence without conclusion
+- Last Thing Said: "thank you so much for telling me that's one for you don't have to go into your"
+
+- Billable: Yes
+- Reason (if Not Billable): N/A
+- Application Submitted: No
+- Reason (if No): No SSN collected and no payment information confirmed/collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Ernie
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Did the call end abruptly: Yes
+- Reason (if Yes): Agent ended call without clear conclusion after discussing follow-up
+- Last Thing Said: "Well, we'll get back in touch with you when we get in charge of something with all three of us."
+
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment info collected and no SSN information mentioned
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Chad
+- Did the call end abruptly: Yes
+- Reason (if Yes): Customer appeared confused and conversation became incoherent
+- Last Thing Said: "You can't help knowing."
+
+
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No information collected regarding SSN or payment details
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly?: No
+- Reason (if Yes): Not Applicable
+- Last Thing Said: Please stay on the line.
+
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment information collected and no SSN information collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Claudia
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Did the call end abruptly?: No
+- Reason (if Yes): Not Applicable
+- Last Thing Said: "Okay. Okay."
+
+- Billable: No
+- Reason (if Not Billable): Unqualified Customer: Age 81+
+- Application Submitted: No
+- Reason (if No): No payment info collected, no SSN collected, no confirmation of submission mentioned
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Catherine
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Customer ended call after declining service
+- Last Thing Said: "When they call you, just tell them no. Okay. Okay."
+
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment info collected, no SSN collected, no confirmation of submission mentioned
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Chad
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Customer stopped engaging
+- Last Thing Said: "I don't know."
+
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment info collected, no SSN collected, no confirmation of submission mentioned
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Doris Aziz
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Customer indicated unwillingness to continue
+- Last Thing Said: "Until you do not." 
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment info collected, no SSN collected, no confirmation of submission mentioned
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Customer appeared to disconnect while repeating complaint
+- Last Thing Said: "I don't know why they keep."
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment info collected, no SSN collected, no confirmation of submission mentioned
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Leith Yesiller
+- Phone Number: Not Provided
+- Agent Name: Dave
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Call dropped or disconnected
+- Last Thing Said: "Hello. Hello. Is anybody there? Hello. Hello."
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment information collected and no SSN information collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Robert W. Van Paulson
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Did the call end abruptly: No
+- Reason (if Yes): Not Applicable
+- Last Thing Said: Correct.
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No customer interaction or information collection occurred
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly?: No
+- Reason (if Yes): Not Applicable
+- Last Thing Said: "This call is being recorded."
+- Billable: Yes
+- Reason (if Not Billable): Not Provided
+- Application Submitted: No
+- Reason (if No): No information provided about collection of SSN or payment details
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly?: No
+- Reason (if Yes): Not Provided
+- Last Thing Said: Not Provided
+- Billable: No
+- Reason (if Not Billable): Unqualified Customer: Age 81+
+- Application Submitted: No
+- Reason (if No): No payment info collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Patricia Kessler
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Abrupt Ending Analysis: Yes
+- Reason (if Yes): Third party intervened and ended call
+- Last Thing Said: "No, this isn't going to happen. Thank you. I'm just going to call Scott. I."
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No personal or payment information collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Did the call end abruptly?: No
+- Reason (if Yes): Not Applicable
+- Last Thing Said: "Oh, this is Terry."
+- Billable: No
+- Reason (if Not Billable): Unqualified Customer: No active bank account/credit card
+- Application Submitted: No
+- Reason (if No): No payment info collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly? Yes
+- Reason (if Yes): Call forwarded to automatic voice message system
+- Last Thing Said: "All has been forwarded to an automatic voice message system. 9-4-1"
+- Billable: No
+- Reason (if Not Billable): Unqualified Customer: No active bank account/credit card
+- Application Submitted: No
+- Reason (if No): No payment info collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly? Yes
+- Reason (if Yes): Call forwarded to automatic voice message system
+- Last Thing Said: "has been forwarded to an automatic voice message system 8."
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment info collected and no SSN collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Linda El Madison
+- Phone Number: Not Provided
+- Agent Name: Terry
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Agent stated they would call back
+- Last Thing Said: "I'll have to give you a call back in a couple of days."
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment info collected, no SSN collected, no confirmation of submission mentioned
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Ray
+- Phone Number: Not Provided
+- Agent Name: Chad
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Call dropped or disconnected
+- Last Thing Said: "Marina?"
+- Billable: Yes
+- Reason (if Not Billable): N/A
+- Application Submitted: Yes
+- Reason (if No): N/A
+- Monthly Premium: $70
+- Carrier: Not Provided
+- Customer Name: Stanley Garzinski
+- Phone Number: 215-334-1953
+- Agent Name: Chad
+- Did the call end abruptly?: No
+- Reason (if Yes): N/A
+- Last Thing Said: Bye for now right
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment info collected and no SSN collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly?: Yes
+- Reason (if Yes): Customer stopped responding or call disconnected
+- Last Thing Said: "I'm already covered."
+- Billable: No
+- Reason (if Not Billable): Vulgar or Prank Call: Clearly wasting agent's time (irrelevant/disruptive)
+- Application Submitted: No
+- Reason (if No): No payment info collected, no confirmation of submission mentioned
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly? No
+- Reason (if Yes): Not Provided
+- Last Thing Said: The other is the way you have a pleasure.
+- Billable: No
+- Reason (if Not Billable): Unqualified Customer: No active bank account/credit card
+- Application Submitted: No
+- Reason (if No): No payment info collected
+- Monthly Premium: Not Provided
+- Carrier: Not Provided
+- Customer Name: Not Provided
+- Phone Number: Not Provided
+- Agent Name: Not Provided
+- Did the call end abruptly? Yes
+- Reason (if Yes): Call forwarded to automated system
+- Last Thing Said: "has been forwarded to an automated voice messaging system."

@@ -1,0 +1,163 @@
+import csv
+import vonage
+import requests
+import pandas as pd
+import threading
+import queue
+
+# Vonage API credentials
+VONAGE_API_KEY = "8068cf0d"
+VONAGE_API_SECRET = "pVDquq15FmtOz8Dv"
+
+# VAPI.ai API credentials
+VAPI_AI_URL = "https://api.vapi.ai/call"
+VAPI_AI_AUTHORIZATION = "Bearer b8c9e434-32ca-4cbc-ae39-b6c4583622c2"
+
+# Path to the CSV file
+CSV_FILE_PATH = "C:\\Users\\Jimbo\\Documents\\pete\\customers.csv"
+
+# Concurrency limit
+CONCURRENCY_LIMIT = 10
+
+# Default country code (e.g., +1 for USA)
+COUNTRY_CODE = "+1"
+
+# Initialize Vonage client
+client = vonage.Client(key=VONAGE_API_KEY, secret=VONAGE_API_SECRET)
+voice = vonage.Voice(client)
+
+# Define the VAPI.ai payload template
+def create_vapi_payload(name, phone_number):
+    return {
+        "name": name,
+        "assistantId": "1230090d-9b60-4682-9de1-cdd59690a09d",
+        "phoneNumber": {
+            "number": COUNTRY_CODE + str(phone_number)  # Use E.164 format for phone number
+        },
+        "assistant": {
+            "transcriber": {
+                "provider": "deepgram",
+                "model": "nova-2",
+                "language": "en-US",
+                "smartFormat": False
+            },
+            "model": {
+                "provider": "openai",
+                "model": "gpt-4o",
+                "semanticCachingEnabled": True,
+                "knowledgeBase": {"provider": "canonical", "fileIds": ["some_file_id"]},
+                "emotionRecognitionEnabled": False
+            },
+            "voice": {
+                "inputPreprocessingEnabled": True,
+                "inputReformattingEnabled": True,
+                "inputMinCharacters": 30,
+                "fillerInjectionEnabled": False,
+                "provider": "11labs",
+                "voiceId": "aAxmq4p0IF2bMZlvGY1Q",
+                "stability": 0.75
+            }
+        },
+        "assistantOverrides": {
+            "transcriber": {
+                "provider": "deepgram",
+                "model": "nova-2",
+                "language": "en-US",
+                "smartFormat": True
+            },
+            "model": {
+                "provider": "openai",
+                "model": "gpt-4o",
+                "semanticCachingEnabled": True,
+                "temperature": 1.5,
+                "knowledgeBase": {"provider": "canonical", "fileIds": ["some_file_id"]},
+                "emotionRecognitionEnabled": False
+            },
+            "voice": {
+                "inputPreprocessingEnabled": True,
+                "inputReformattingEnabled": True,
+                "inputMinCharacters": 30,
+                "fillerInjectionEnabled": False,
+                "provider": "11labs",
+                "voiceId": "burt",
+                "stability": 0.6,
+                "similarityBoost": 0.6,
+                "style": 0.6,
+                "useSpeakerBoost": True,
+                "optimizeStreamingLatency": 3,
+                "enableSsmlParsing": False,
+                "model": "eleven_turbo_v2"
+            },
+            "firstMessageMode": "assistant-speaks-first",
+            "recordingEnabled": True,
+            "hipaaEnabled": False,
+            "responseDelaySeconds": 0.2,
+            "llmRequestNonPunctuatedDelaySeconds": 1,
+            "numWordsToInterruptAssistant": 2,
+            "backgroundSound": "off",
+            "backchannelingEnabled": False,
+            "backgroundDenoisingEnabled": False,
+            "modelOutputInMessagesEnabled": False,
+            "firstMessage": "Hi, this is James, I am an AI assistant for Aaronson Insurance. I’m calling because your health policy is coming up for renewal, and Pete wants to ensure your health policy stays in effect for 2025 and that your plan still meets your health needs. I just need to ask you a couple of questions. Does that work for you?",
+            "voicemailDetection": {
+                "enabled": False  # Disable Twilio voicemail detection
+            },
+            "analysisPlan": {
+                "summaryPrompt": "Intro: Note James's greeting, reason for the call, and customer's response. Consent: Summarize if the customer agreed to answer questions. Plan Satisfaction: Record if the customer is happy with their current health plan and wants to keep it for 2025. Highlight any feedback or concerns. New Programs: Briefly mention James's explanation of new programs to protect the customer's policy and financial info. Renewal Options: Note the chosen option: [Email / Appointment]. For Email: Mention if the customer understood and agreed to use the PIN system. For Appointment: Record the agreed date and time. Additional Services: Note if the customer is interested in new packages for 2025, such as dental, vision, or life insurance. Feedback: Summarize any feedback regarding the service in 2024 and suggestions for improvement. Closing: Confirm the next steps, reminders, and farewell from James. Example Call Summary: Intro: James introduced himself as an AI assistant for Aaronson Insurance and explained the reason for the call regarding the health policy renewal for 2025. The customer responded positively. Consent: The customer agreed to answer questions. Plan Satisfaction: The customer is satisfied with their current health plan and confirmed they want to keep it for 2025. No specific concerns were mentioned. New Programs: James explained the new programs to protect the customer’s policy and financial info, and the customer appreciated the measures. Renewal Options: Chosen Option: Email. The customer understood and agreed to use the PIN system. Additional Services: The customer showed interest in adding dental coverage for 2025. Feedback: The customer was satisfied with the service provided in 2024 and had no additional suggestions for improvement. Closing: James thanked the customer for their time, confirmed that reminders for November 1st would be sent, and wished them a great day.",
+                "successEvaluationPrompt": "Success: The call is a success if the customer chose either the Email or Appointment option. Questions: Did the customer choose the Email option? Did the customer choose the Appointment option?",
+                "structuredDataSchema": {"type": "string"}
+            },
+            "artifactPlan": {"videoRecordingEnabled": False}
+        }
+    }
+
+# Function to make an outbound call using Vonage
+def make_call(name, phone_number):
+    vapi_payload = create_vapi_payload(name, phone_number)
+    headers = {
+        "Authorization": VAPI_AI_AUTHORIZATION,
+        "Content-Type": "application/json"
+    }
+
+    response = requests.post(VAPI_AI_URL, json=vapi_payload, headers=headers)
+    print(response.text)
+
+# Thread worker function
+def worker(q):
+    while True:
+        item = q.get()
+        if item is None:
+            break
+        name, phone_number = item
+        make_call(name, phone_number)
+        q.task_done()
+
+# Read the CSV file and queue calls
+def process_calls_from_csv(csv_file_path):
+    df = pd.read_csv(csv_file_path, dtype=str)  # Ensure phone numbers are read as strings
+    q = queue.Queue()
+    threads = []
+
+    # Create worker threads
+    for i in range(CONCURRENCY_LIMIT):
+        t = threading.Thread(target=worker, args=(q,))
+        t.start()
+        threads.append(t)
+
+    # Queue the calls
+    for index, row in df.iterrows():
+        name = row['name']
+        phone_number = row['phone_number']
+        q.put((name, phone_number))
+
+    # Block until all tasks are done
+    q.join()
+
+    # Stop the worker threads
+    for i in range(CONCURRENCY_LIMIT):
+        q.put(None)
+    for t in threads:
+        t.join()
+
+if __name__ == "__main__":
+    process_calls_from_csv(CSV_FILE_PATH)

@@ -1,0 +1,86 @@
+
+--- Contents from: recording-public_8843afb22a72138f_analysis.txt ---
+
+- Billable: Yes
+- Reason (if Not Billable): N/A
+- Application Submitted: No
+- Reason (if No): No payment info collected
+- Monthly Premium: $212
+- Carrier: CVS Health (Etna)
+- Customer Name: Jerome McAfee
+- Phone Number: 248-843-5464
+- Agent Name: Joseph
+- Call Summary: Jerome called about final expense insurance, and after discussing his age, health, and preferences, the agent provided quotes for both an IUL and a whole life policy. Due to Jerome's MS diagnosis, the IUL was not an option, and the agent proceeded with a whole life policy application. However, the call ended abruptly during the payment information collection phase, and no confirmation of submission was mentioned.
+
+
+--- Contents from: recording-public_c9331bdfcb005b77_analysis.txt ---
+
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment info collected
+- Monthly Premium: $58
+- Carrier: Not Provided
+- Customer Name: Judy Burch
+- Phone Number: 318-500-1040
+- Agent Name: Not Provided
+- Call Summary: The agent assisted Judy Burch with a life insurance quote, initially offering $200,000 coverage for $82/month, then adjusting to $58/month after confirming her health status. Judy provided personal details, beneficiary information, and partial SSN but did not complete payment information submission before the call ended abruptly.
+
+
+--- Contents from: recording-public_163288e4ffd3303b_analysis.txt ---
+
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+
+- Application Submitted: Yes
+- Reason (if No): Not Applicable
+
+- Monthly Premium: $33.76
+- Carrier: Not Provided
+- Customer Name: Sue Sanford
+- Phone Number: 325-214-4815
+- Agent Name: Robel
+
+- Call Summary: Robel from the insurance office called Sue Sanford to discuss life insurance plans for covering funeral, burial, or cremation costs. Sue confirmed her age, state of residence (Texas), and lack of major medical conditions or smoking habits. She qualified for a $10,000 coverage plan at $33.76 per month, provided her bank details for automatic payments, and chose cremation. The application process included verifying personal details, sending a text for authorization, and naming her three children as beneficiaries. The policy was set to start on May 3rd, with monthly drafts from her bank account.
+
+
+--- Contents from: recording-public_80776fb0132a8eb8_analysis.txt ---
+
+- Billable: Yes
+- Reason (if Not Billable): N/A
+- Application Submitted: Yes
+- Reason (if No): N/A
+- Monthly Premium: $25
+- Carrier: Not Provided
+- Customer Name: Camila Bisumber
+- Phone Number: 740-222-0058
+- Agent Name: Rowe
+- Call Summary: The call involved Rowe assisting Camila Bisumber in applying for a final expense insurance plan. Camila provided her personal details, including age, address, and banking information, and confirmed her eligibility for a $10,000 coverage plan at $25 per month starting May 1st. The application process included collecting her SSN, beneficiary details, and bank information, though the call ended abruptly during the bank name confirmation.
+
+
+--- Contents from: recording-public_bc94508caed38de9_analysis.txt ---
+
+- Billable: Yes
+- Reason (if Not Billable): N/A
+- Application Submitted: No
+- Reason (if No): No payment info collected, no confirmation of submission mentioned
+- Monthly Premium: $38.33
+- Carrier: Not Provided
+- Customer Name: Donald
+- Phone Number: Not Provided
+- Agent Name: Joseph
+- Call Summary: Joseph, a licensed life insurance agent, spoke with Donald about final expense life insurance options. Donald provided his date of birth (December 6, 1954), confirmed no medical conditions or tobacco use, and discussed coverage needs for burial or cremation. Joseph presented several coverage options ($5,000 to $12,500) with corresponding monthly premiums, and they scheduled a follow-up call for Friday at 10 a.m. to proceed with the $5,000 coverage option. No payment information was collected, and no application was submitted during the call.
+
+
+--- Contents from: recording-public_8b07ccd2d9fbe5c7_analysis.txt ---
+
+- Billable: Yes
+- Reason (if Not Billable): Not Applicable
+- Application Submitted: No
+- Reason (if No): No payment info collected, No confirmation of submission mentioned
+- Monthly Premium: $15, $21.56, $27.68
+- Carrier: Mutual Omaha
+- Customer Name: Paul Terry
+- Phone Number: Not Provided
+- Agent Name: Joseph
+- Call Summary: Paul Terry called to inquire about state-regulated final expense plans. Agent Joseph confirmed Paul's age (46), residence (Michigan), lack of medical conditions, and active bank account. Joseph provided three coverage options ($5,000, $7,500, $10,000) with corresponding monthly premiums. Paul expressed interest in the $5,000 plan, but the call was disconnected before completing the application or collecting payment details.

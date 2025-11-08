@@ -1,0 +1,22 @@
+name: Deploy to DigitalOcean App Platform
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy App
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Deploy to DigitalOcean App Platform
+        uses: digitalocean/app_action@v1
+        with:
+          app_name: hopwhistle
+          token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
+          spec_path: .do/app.yaml
