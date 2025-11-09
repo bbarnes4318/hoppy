@@ -8,6 +8,7 @@ services:
       branch: main
       deploy_on_push: true
     dockerfile_path: api/Dockerfile
+    source_dir: api
     http_port: 8080
     instance_count: 1
     instance_size_slug: basic-xs
@@ -44,6 +45,7 @@ services:
       branch: main
       deploy_on_push: true
     dockerfile_path: web/Dockerfile
+    source_dir: web
     http_port: 3000
     instance_count: 1
     instance_size_slug: basic-xs
@@ -66,8 +68,10 @@ services:
       - path: /
 
 databases:
-  - name: hopwhistle-db
+  - name: hopwhistle
     engine: PG
-    version: "15"
+    version: "18"
     production: true
-    cluster_name: hopwhistle-db-cluster
+    cluster_name: hopwhistle
+    db_name: defaultdb
+    db_user: doadmin
