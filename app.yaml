@@ -3,6 +3,10 @@ region: nyc
 
 services:
   - name: api
+    github:
+      repo: bbarnes4318/hoppy
+      branch: main
+      deploy_on_push: true
     dockerfile_path: api/Dockerfile
     http_port: 8080
     instance_count: 1
@@ -35,6 +39,10 @@ services:
       - path: /api
 
   - name: web
+    github:
+      repo: bbarnes4318/hoppy
+      branch: main
+      deploy_on_push: true
     dockerfile_path: web/Dockerfile
     http_port: 3000
     instance_count: 1
