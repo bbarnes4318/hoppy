@@ -1,19 +1,8 @@
 /** @type {import('next').NextConfig} */
-const path = require('path');
-
 const nextConfig = {
   reactStrictMode: true,
   images: {
     domains: [],
-  },
-  webpack: (config) => {
-    const aliasPath = path.resolve(process.cwd());
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      '@': aliasPath,
-    };
-    console.log('Webpack alias @ resolved to:', aliasPath);
-    return config;
   },
   async rewrites() {
     return [
