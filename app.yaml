@@ -7,10 +7,15 @@ services:
     source_dir: api
     http_port: 8080
     instance_count: 1
-    instance_size_slug: basic-xxs
-    run_command: cd /app && alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8080
+    instance_size_slug: basic-xs
+    run_command: alembic upgrade head || true && uvicorn app.main:app --host 0.0.0.0 --port 8080
     health_check:
       http_path: /healthz
+      initial_delay_seconds: 60
+      period_seconds: 10
+      timeout_seconds: 5
+      success_threshold: 1
+      failure_threshold: 3
     envs:
       - key: DATABASE_URL
         scope: RUN_TIME
@@ -35,10 +40,15 @@ services:
     source_dir: web
     http_port: 3000
     instance_count: 1
-    instance_size_slug: basic-xxs
+    instance_size_slug: basic-xs
     run_command: npm start
     health_check:
       http_path: /
+      initial_delay_seconds: 60
+      period_seconds: 10
+      timeout_seconds: 5
+      success_threshold: 1
+      failure_threshold: 3
     envs:
       - key: NEXT_PUBLIC_API_URL
         scope: RUN_TIME
