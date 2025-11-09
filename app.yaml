@@ -8,8 +8,6 @@ services:
       branch: main
       deploy_on_push: true
     dockerfile_path: api/Dockerfile
-    source_dir: api
-    build_command: ""
     dockerfile_context: api
     http_port: 8080
     instance_count: 1
@@ -42,8 +40,6 @@ services:
       branch: main
       deploy_on_push: true
     dockerfile_path: web/Dockerfile
-    source_dir: web
-    build_command: ""
     dockerfile_context: web
     http_port: 3000
     instance_count: 1
