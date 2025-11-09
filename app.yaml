@@ -70,3 +70,4 @@ databases:
     engine: PG
     version: "15"
     production: true
+    cluster_name: hopwhistle-db-cluster
