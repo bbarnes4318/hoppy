@@ -1,0 +1,74 @@
+name: hopwhistle
+region: nyc
+services:
+  # Backend API Service
+  - name: api
+    github:
+      repo: bbarnes4318/hopwhistle
+      branch: main
+      deploy_on_push: true
+    dockerfile_path: api/Dockerfile
+    source_dir: api
+    http_port: 8080
+    instance_count: 1
+    instance_size_slug: basic-xxs
+    health_check:
+      http_path: /healthz
+    envs:
+      - key: DATABASE_URL
+        scope: RUN_TIME
+        type: SECRET
+      - key: JWT_SECRET
+        scope: RUN_TIME
+        type: SECRET
+      - key: ENABLE_TIMESCALE
+        scope: RUN_TIME
+        value: "true"
+      - key: CORS_ORIGINS
+        scope: RUN_TIME
+        value: '["https://hopwhistle-web.ondigitalocean.app"]'
+      - key: ENVIRONMENT
+        scope: RUN_TIME
+        value: "production"
+      - key: OPENAI_API_KEY
+        scope: RUN_TIME
+        type: SECRET
+      - key: DEEPSEEK_API_KEY
+        scope: RUN_TIME
+        type: SECRET
+    routes:
+      - path: /api
+    run_command: alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8080
+
+  # Frontend Web Service
+  - name: web
+    github:
+      repo: bbarnes4318/hopwhistle
+      branch: main
+      deploy_on_push: true
+    dockerfile_path: web/Dockerfile
+    source_dir: web
+    http_port: 3000
+    instance_count: 1
+    instance_size_slug: basic-xxs
+    health_check:
+      http_path: /
+    envs:
+      - key: NEXT_PUBLIC_API_URL
+        scope: RUN_TIME
+        value: "https://hopwhistle-api.ondigitalocean.app"
+      - key: NEXT_PUBLIC_WS_URL
+        scope: RUN_TIME
+        value: "wss://hopwhistle-api.ondigitalocean.app"
+    routes:
+      - path: /
+
+databases:
+  - name: hopwhistle-db
+    engine: PG
+    version: "15"
+    production: true
+    cluster_name: hopwhistle-db-cluster
+    db_name: hopwhistle
+    db_user: hopwhistle
+
