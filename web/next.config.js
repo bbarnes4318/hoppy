@@ -7,10 +7,12 @@ const nextConfig = {
     domains: [],
   },
   webpack: (config) => {
+    const aliasPath = path.resolve(process.cwd());
     config.resolve.alias = {
       ...config.resolve.alias,
-      '@': path.resolve(__dirname),
+      '@': aliasPath,
     };
+    console.log('Webpack alias @ resolved to:', aliasPath);
     return config;
   },
   async rewrites() {
