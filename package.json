@@ -1,0 +1,13 @@
+{
+  "name": "hopwhistle-root",
+  "version": "1.0.0",
+  "description": "Hopwhistle - Real-Time Lead Results Dashboard",
+  "private": true,
+  "workspaces": [
+    "web"
+  ],
+  "scripts": {
+    "build": "echo 'This is a monorepo. See api/ and web/ directories.'"
+  }
+}
+

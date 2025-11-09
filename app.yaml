@@ -1,7 +1,7 @@
 name: hopwhistle
 region: nyc
+
 services:
-  # Backend API Service
   - name: api
     github:
       repo: bbarnes4318/hopwhistle
@@ -30,17 +30,10 @@ services:
       - key: ENVIRONMENT
         scope: RUN_TIME
         value: "production"
-      - key: OPENAI_API_KEY
-        scope: RUN_TIME
-        type: SECRET
-      - key: DEEPSEEK_API_KEY
-        scope: RUN_TIME
-        type: SECRET
     routes:
       - path: /api
     run_command: alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8080
 
-  # Frontend Web Service
   - name: web
     github:
       repo: bbarnes4318/hopwhistle
@@ -68,7 +61,3 @@ databases:
     engine: PG
     version: "15"
     production: true
-    cluster_name: hopwhistle-db-cluster
-    db_name: hopwhistle
-    db_user: hopwhistle
-

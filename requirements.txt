@@ -1,0 +1,3 @@
+# This is a monorepo root file
+# See api/requirements.txt for Python dependencies
+
