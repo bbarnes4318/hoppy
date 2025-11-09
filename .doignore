@@ -1,0 +1,7 @@
+*
+!api/Dockerfile
+!web/Dockerfile
+!api/
+!web/
+!.do/app.yaml
+
