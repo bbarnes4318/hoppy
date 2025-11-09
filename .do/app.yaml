@@ -4,10 +4,10 @@ region: nyc
 services:
   - name: api
     dockerfile_path: api/Dockerfile
-    source_dir: api
     http_port: 8080
     instance_count: 1
     instance_size_slug: basic-xxs
+    run_command: alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8080
     health_check:
       http_path: /healthz
     envs:
@@ -31,10 +31,10 @@ services:
 
   - name: web
     dockerfile_path: web/Dockerfile
-    source_dir: web
     http_port: 3000
     instance_count: 1
     instance_size_slug: basic-xxs
+    run_command: npm start
     health_check:
       http_path: /
     envs:
